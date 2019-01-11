@@ -1,0 +1,56 @@
+[
+  {
+    "model": "people.people",
+    "pk": 1,
+    "fields": {
+      "firstName": "Michael",
+      "lastName": "Suyama",
+      "email": "suyama@wp.co",
+      "likedPosts": [1, 2]
+    }
+  },
+  {
+    "model": "people.people",
+    "pk": 2,
+    "fields": {
+      "firstName": "Nancy",
+      "lastName": "DaVolio",
+      "email": "davolio@wp.co",
+      "likedPosts": [1]
+    }
+  },
+  {
+    "model": "people.people",
+    "pk": 3,
+    "fields": {
+      "firstName": "David",
+      "lastName": "Buchanan",
+      "email": "buchanan@wp.co",
+      "likedPosts": [2, 3]
+    }
+  },
+  {
+    "model": "people.post",
+    "pk": 1,
+    "fields": {
+      "description": "Introduction to GraphQL",
+      "imageUrl": "google.com"
+    }
+  },
+  {
+    "model": "people.post",
+    "pk": 2,
+    "fields": {
+      "description": "Welcome to POC",
+      "imageUrl": "microsoft.com"
+    }
+  },
+  {
+    "model": "people.post",
+    "pk": 3,
+    "fields": {
+      "description": "Advanced GraphQL",
+      "imageUrl": "yahoo.com"
+    }
+  }
+]
