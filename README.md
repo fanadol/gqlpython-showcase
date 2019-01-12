@@ -78,4 +78,28 @@ We can also do a `GET` request to `localhost:8000/posts/` and `localhost:8000/pe
 
 The server returns the following response:
 
-![alt text](https://imgur.com/a/0AtDU1j)
+```
+[
+    {
+        "id": 1,
+        "fullName": "Michael Suyama",
+        "firstName": "Michael",
+        "lastName": "Suyama",
+        "email": "suyama@wp.co"
+    },
+    {
+        "id": 2,
+        "fullName": "Nancy DaVolio",
+        "firstName": "Nancy",
+        "lastName": "DaVolio",
+        "email": "davolio@wp.co"
+    },
+    {
+        "id": 3,
+        "fullName": "David Buchanan",
+        "firstName": "David",
+        "lastName": "Buchanan",
+        "email": "buchanan@wp.co"
+    }
+]
+```
