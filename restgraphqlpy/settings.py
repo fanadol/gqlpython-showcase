@@ -117,7 +117,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = "/var/www/example.com/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 GRAPHENE = {
     'SCHEMA': 'restgraphqlpy.schema.schema',
